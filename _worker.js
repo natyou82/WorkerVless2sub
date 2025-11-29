@@ -3,7 +3,7 @@ let cfips = [
     // 格式: "IP地址:端口#备注"
     // 示例:
     "46.3.105.69:22899#🇭🇰HK",
-    "saas.sin.fan:443#🇭🇰HK",
+    "saas.sin.fan:8443#🇭🇰HK",
     "[2001:db8::1]:2083#SG"
 ];
 
@@ -42,7 +42,7 @@ async function organizeCFIPList(api) {
     const controller = new AbortController();
 
     const timeout = setTimeout(() => {
-        controller.abort(); // Cancel all requests
+        controller.abort(); 
     }, 5000); // Trigger after 5 seconds
 
     try {
@@ -235,8 +235,8 @@ const frontendHtml = `
         }
 
         .github-corner svg {
-            fill: var(--primary-color);
-            color: var(--card-bg);
+            fill: #b4c0e7;
+            color: #2383ea;
             position: absolute;
             top: 0;
             right: 0;
@@ -404,7 +404,7 @@ const frontendHtml = `
         
         <div class="input-group">
             <label for="link">请输入节点链接</label>
-            <input type="text" id="link" placeholder="请输入 vmess://  vless://  trojan://  ss://  节点链接">
+            <input type="text" id="link" placeholder="请输入 vmess://  vless://  trojan://  ss://  节点链接,支持xhttp">
         </div>
         
         <button onclick="generateLink()">生成优选订阅</button>
@@ -423,6 +423,7 @@ const frontendHtml = `
             <input type="text" id="result" readonly onclick="copyToClipboard()">
             <div style="display: flex; gap: 10px; margin-top: 10px;">
                 <button onclick="generateQRCode()" style="flex: 1;">点击生成二维码</button>
+                <button onclick="cleardata()" style="background-color: #d83c3c;flex: 1;">清除输入</button>
             </div>
             <div id="qrcode" style="margin: 1px;"></div>
         </div>
@@ -522,6 +523,14 @@ const frontendHtml = `
                 colorLight: "#ffffff",
                 correctLevel: QRCode.CorrectLevel.H
             });
+        }
+        // Clear input fields
+        function cleardata() {
+            document.getElementById('link').value = '';
+            document.getElementById('result').value = '';
+            const qrcodeDiv = document.getElementById('qrcode');
+            qrcodeDiv.innerHTML = '';
+            qrcodeDiv.classList.remove('show');
         }
     </script>
 </body>
@@ -729,9 +738,6 @@ export default {
                     } else if (linkParam.startsWith('ss://')) {
                         // Parse Shadowsocks link
                         protocolType = 'SS';
-                        
-                        // Shadowsocks format: ss://base64(method:password)@server:port#tag
-                        // Or with plugin: ss://base64(method:password)@server:port?plugin=...#tag
                         
                         // First, separate the base64 part from the rest
                         const linkWithoutPrefix = linkParam.substring(5); // Remove 'ss://'
@@ -1027,4 +1033,3 @@ ${url.origin}/sub?link=ss://base64_encoded_link_here
         });
     }
 };
-
