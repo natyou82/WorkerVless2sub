@@ -1,6 +1,10 @@
+# 优选订阅生成器
+支持vless、vmess、trojan、ss、xhttp等节点链接
+
+<details>
+<summary>原项目readme（点击展开）</summary>
+
 # 🚀 优选订阅生成器 WorkerVless2sub
-![sub](./sub.png)
-这个是一个通过 Cloudflare Workers 搭建，自动化批量替换生成优选线路 VMess / VLESS / Trojan 节点的 **优选订阅生成器** [[实现原理]](https://www.youtube.com/watch?v=p-KhFJAC4WQ&t=70s)
 
 > [!WARNING]
 > 注意！这是一个**公益服务项目**，请不要将私人节点放入`LINK`变量，这会让所有人都能获得此节点！！！
