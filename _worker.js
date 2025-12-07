@@ -9,7 +9,9 @@ let cfips_api = [
     "https://cf.090227.xyz/ct",
 "https://cf.090227.xyz/cu",
 "https://cf.090227.xyz/cmcc",
-"https://addressesapi.090227.xyz/CloudFlareYes"
+"https://addressesapi.090227.xyz/CloudFlareYes",
+"https://jd.chatkg.qzz.io/ip.txt",
+"https://jd.chatkg.qzz.io/ipv6.txt"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
@@ -1038,6 +1040,7 @@ ${url.origin}/sub?link=ss://base64_encoded_link_here
         });
     }
 };
+
 
 
 
