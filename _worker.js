@@ -1,8 +1,8 @@
 let cfips = [
     "https://cf.090227.xyz/ct",
-    "https://cf.090227.xyz/cu",
-    "https://cf.090227.xyz/cmcc",
-    "https://addressesapi.090227.xyz/CloudFlareYes",
+"https://cf.090227.xyz/cu",
+"https://cf.090227.xyz/cmcc",
+"https://addressesapi.090227.xyz/CloudFlareYes",
     "46.3.105.69:22899#🇭🇰HK",
     "saas.sin.fan:8443#🇭🇰HK",
     "[2001:db8::1]:2083#SG"
@@ -1036,6 +1036,7 @@ ${url.origin}/sub?link=ss://base64_encoded_link_here
         });
     }
 };
+
 
 
 
