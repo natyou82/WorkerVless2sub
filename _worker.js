@@ -6,12 +6,12 @@ let cfips = [
 ];
 
 let cfips_api = [
-    "https://cf.090227.xyz/ct",
-"https://cf.090227.xyz/cu",
-"https://cf.090227.xyz/cmcc",
-"https://addressesapi.090227.xyz/CloudFlareYes",
-"https://jd.chatkg.qzz.io/ip.txt",
-"https://jd.chatkg.qzz.io/ipv6.txt"
+    "https://bestcf.pages.dev/wetest/ipv4.txt",
+"https://bestcf.pages.dev/cfyes/ipv4.txt",
+"https://cf.junzhen.qzz.io/best_ips.txt",
+"https://bestcf.pages.dev/tiancheng/mini.txt",
+"https://cf.junzhen.qzz.io/best_ips_bj.txt",
+"https://bestcf.pages.dev/cfyes/ipv6.txt"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
