@@ -2,16 +2,16 @@ let cfips = [
     "fs.cf.090227.xyz#不定期维护【无法使用时请更新订阅】",
     "46.3.105.69:22899#🇭🇰HK",
     "saas.sin.fan:8443#🇭🇰HK",
-    "[2001:db8::1]:2083#SG"
 ];
 
 let cfips_api = [
-    "https://bestcf.pages.dev/wetest/ipv4.txt",
-"https://bestcf.pages.dev/cfyes/ipv4.txt",
-"https://cf.junzhen.qzz.io/best_ips.txt",
-"https://bestcf.pages.dev/tiancheng/mini.txt",
-"https://cf.junzhen.qzz.io/best_ips_bj.txt",
-"https://bestcf.pages.dev/cfyes/ipv6.txt"
+    "https://bestcf.pages.dev/tiancheng/all.txt",
+"https://bestcf.pages.dev/s5gy/all.txt",
+"https://090227.pages.dev/bestcf?isp=all&ips=20",
+"https://bestcf.pages.dev/tiancheng2/all.txt",
+"https://bestcf.pages.dev/WARP/WARP-MINI.txt",
+    "https://bestcf.pages.dev/vvhan/ipv4.txt",
+"https://bestcf.pages.dev/vvhan/ipv6.txt"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
