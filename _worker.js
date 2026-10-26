@@ -6,7 +6,7 @@ let cfips = [
 
 let cfips_api = [
     "https://bestcf.pages.dev/tiancheng/all.txt",
-    "https://bestcf.pages.dev/vvhan/ipv6.txt"
+    "https://090227.pages.dev/bestcf?isp=all&ips=20"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
