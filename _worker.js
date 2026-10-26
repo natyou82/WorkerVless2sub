@@ -1,12 +1,12 @@
 let cfips = [
-    "fs.cf.090227.xyz#不定期维护【无法使用时请更新订阅】",
-    "46.3.105.69:22899#🇭🇰HK",
-    "saas.sin.fan:8443#🇭🇰HK",
+    "cucc.cloudflare.seeck.cn:443#联通专用【无法使用时请更新订阅】",
+    "ctcc.cloudflare.seeck.cn:443#电信专用",
+    "cmcc.cloudflare.seeck.cn:443#移动专用",
 ];
 
 let cfips_api = [
     "https://bestcf.pages.dev/tiancheng/mini.txt",
-    "https://090227.pages.dev/bestcf?isp=all&ips=20"
+    "https://090227.pages.dev/bestcf?isp=all&ips=20",
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
