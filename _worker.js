@@ -7,9 +7,7 @@ let cfips = [
 let cfips_api = [
     "https://bestcf.pages.dev/tiancheng/mini.txt",
     "https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt",
-    "https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt",
-    "https://bestcf.pages.dev/cfyes/ipv6.txt",
-    "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv6.txt"
+    "https://raw.githubusercontent.com/gshtwy/CF-DNS-Clone/refs/heads/main/wetest-cloudflare-v4.txt"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
