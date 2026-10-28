@@ -12,7 +12,7 @@ let cfips_api = [
     "https://bestcf.pages.dev/tiancheng/tw.txt",
     "https://bestcf.pages.dev/tiancheng/us.txt",
     "https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt",
-    "https://090227.pages.dev/bestcf?isp=cmcc&ips=20"
+    "https://090227.pages.dev/bestcf?isp=cmcc&ips=20",
     "https://bestcf.pages.dev/vps789/top10.txt"
 ]; // api里的内容格式和{cfips}里相同
 
