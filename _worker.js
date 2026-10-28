@@ -1,12 +1,19 @@
 let cfips = [
     "cucc.cloudflare.seeck.cn:443#联通专用【无法使用时请更新订阅】",
     "ctcc.cloudflare.seeck.cn:443#电信专用",
-    "cmcc.cloudflare.seeck.cn:443#移动专用",
+    "cmcc.cloudflare.seeck.cn:443#移动专用"
 ];
 
 let cfips_api = [
-    "https://bestcf.pages.dev/tiancheng/mini.txt",
-    "https://090227.pages.dev/bestcf?isp=all&ips=20",
+    "https://bestcf.pages.dev/tiancheng/hk.txt",
+    "https://bestcf.pages.dev/tiancheng/sg.txt",
+    "https://bestcf.pages.dev/tiancheng/jp.txt",
+    "https://bestcf.pages.dev/tiancheng/kr.txt",
+    "https://bestcf.pages.dev/tiancheng/tw.txt",
+    "https://bestcf.pages.dev/tiancheng/us.txt",
+    "https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt",
+    "https://090227.pages.dev/bestcf?isp=cmcc&ips=20"
+    "https://bestcf.pages.dev/vps789/top10.txt"
 ]; // api里的内容格式和{cfips}里相同
 
 // Base64 encoding function
