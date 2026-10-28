@@ -5,13 +5,11 @@ let cfips = [
 ];
 
 let cfips_api = [
-    "https://bestcf.pages.dev/tiancheng/hk.txt",
-    "https://bestcf.pages.dev/tiancheng/sg.txt",
-    "https://bestcf.pages.dev/tiancheng/jp.txt",
-    "https://bestcf.pages.dev/tiancheng/kr.txt",
-    "https://bestcf.pages.dev/tiancheng/tw.txt",
-    "https://bestcf.pages.dev/tiancheng/us.txt",
-    "https://raw.githubusercontent.com/svip-s/cloudflare_ip/refs/heads/main/best_ips.txt",
+    "https://bestcf.pages.dev/tiancheng/mini.txt",
+    "https://bestcf.pages.dev/tiancheng2/mini.txt",
+    "https://bestcf.pages.dev/s5gy/mini.txt",
+    "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv4.txt",
+    "https://raw.githubusercontent.com/ymyuuu/IPDB/refs/heads/main/BestCF/bestcfv6.txt",
     "https://090227.pages.dev/bestcf?isp=cmcc&ips=20",
     "https://bestcf.pages.dev/vps789/top10.txt"
 ]; // api里的内容格式和{cfips}里相同
