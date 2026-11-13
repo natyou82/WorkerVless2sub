@@ -7,6 +7,10 @@ let cfips = [
 let cfips_api = [
     "https://bestcf.pages.dev/vps789/top10.txt",
     "https://bestcf.pages.dev/wetest/ipv4.txt",
+    "https://bestcf.pages.dev/tiancheng/hk.txt",
+    "https://bestcf.pages.dev/tiancheng/jp.txt",
+    "https://bestcf.pages.dev/tiancheng/sg.txt",
+    "https://bestcf.pages.dev/tiancheng/us.txt",
     "https://bestcf.pages.dev/uouin/all.txt"
 ]; // api里的内容格式和{cfips}里相同
 
